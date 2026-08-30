@@ -31,7 +31,7 @@ Output Options:
 ```
 # Examples
 
-```./liveshot -u [https://example.com](https://example.com)```
+```./liveshot -u https://example.com```
 
 # Fast List Probe No Screenshot 
 
@@ -42,7 +42,8 @@ Output Options:
 ```./liveshot -l targets.txt -mc 200 -save-txt live.txt```
 
 # Installation
-```git clone https://github.com/dekart10x17/liveshot.git
+```
+git clone https://github.com/dekart10x17/liveshot.git
 cd liveshot
 go mod tidy
 go build -o liveshot main.go
