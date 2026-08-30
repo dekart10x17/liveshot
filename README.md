@@ -28,3 +28,25 @@ Output Options:
   -save-txt <file> Export live target URLs to text file
   -o <dir>         Output directory (default: timestamped report dir)
   -debug           Display browser JS console errors
+```
+# Examples
+
+```./liveshot -u [https://example.com](https://example.com)```
+
+# Fast List Probe No Screenshot 
+
+```./liveshot -l targets.txt -no-img -t 25```
+
+# Match 200 OK & Save Live Hosts:
+
+```./liveshot -l targets.txt -mc 200 -save-txt live.txt```
+
+# Installation
+```git clone https://github.com/dekart10x17/liveshot.git
+cd liveshot
+go mod tidy
+go build -o liveshot main.go
+```
+
+
+
