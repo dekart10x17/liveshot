@@ -1,4 +1,4 @@
-<img width="1024" height="488" alt="srlm" src="https://github.com/user-attachments/assets/e68281e7-01b9-4c1e-bd5f-5855df6934dc" />
+
 
 # Liveshot
 
@@ -31,6 +31,8 @@ Output Options:
   -o <dir>         Output directory (default: timestamped report dir)
   -debug           Display browser JS console errors
 ```
+<img width="1024" height="488" alt="srlm" src="https://github.com/user-attachments/assets/e68281e7-01b9-4c1e-bd5f-5855df6934dc" />
+
 # Examples
 
 ```./liveshot -u https://example.com```
