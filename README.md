@@ -1,3 +1,4 @@
+![Uploading 208fc76d-b150-43dd-828d-86cbcba7f6f1.png…]()
 # Liveshot
 
 **Liveshot** is a multi-threaded Go reconnaissance tool for live web target discovery, HTTP metadata probing, WAF detection, and automated headless Chrome screenshots.
